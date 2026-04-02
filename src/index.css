@@ -41,7 +41,7 @@
   }
   .brush-underline::after {
     content: '';
-    @apply absolute -bottom-1 left-0 w-full h-2 bg-brand-sand/40 -z-10 rounded-full;
+    @apply absolute -bottom-1 left-0 w-full h-2 bg-secondary/40 -z-10 rounded-full;
     transform: skewX(-15deg);
   }
 }
@@ -49,8 +49,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  @apply font-sans bg-brand-cream text-foreground antialiased;
+  @apply font-sans bg-background text-foreground antialiased;
 }
-h1, h2, h3, h4, .font-display {
+h1, h2, h3, h4 {
   @apply font-display;
 }
