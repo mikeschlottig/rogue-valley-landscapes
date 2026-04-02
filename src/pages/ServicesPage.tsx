@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { SERVICES } from '@/data/mockData';
-import { LeafMotif, SketchyCircle, BrushStrokeDivider } from '@/components/Illustrations';
+import { LeafMotif, SketchyCircle } from '@/components/Illustrations';
 export function ServicesPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
