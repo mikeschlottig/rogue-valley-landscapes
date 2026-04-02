@@ -1,6 +1,6 @@
 # Rogue Valley Landscapes
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mikeschlottig/rogue-valley-landscapes)
 
 A modern, full-stack web application built with React, TypeScript, and Cloudflare Workers. Features a responsive UI with shadcn/ui components, Tailwind CSS styling, and a Hono-based API backend. Designed for seamless development, deployment, and scaling on Cloudflare's edge network.
 
@@ -76,7 +76,7 @@ This builds the app and deploys via Wrangler. Ensure you have:
 
 For preview deploys: `wrangler deploy --name preview-branch`.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/mikeschlottig/rogue-valley-landscapes)
 
 ## Project Structure
 
