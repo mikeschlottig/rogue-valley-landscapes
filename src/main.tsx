@@ -15,6 +15,7 @@ import { RootLayout } from '@/components/layout/RootLayout';
 import { HomePage } from '@/pages/HomePage';
 import { ServicesPage } from '@/pages/ServicesPage';
 import { PortfolioPage } from '@/pages/PortfolioPage';
+import { BlogPage } from '@/pages/BlogPage';
 import { ContactPage } from '@/pages/ContactPage';
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "services", element: <ServicesPage /> },
       { path: "portfolio", element: <PortfolioPage /> },
+      { path: "blog", element: <BlogPage /> },
       { path: "contact", element: <ContactPage /> },
     ]
   },
