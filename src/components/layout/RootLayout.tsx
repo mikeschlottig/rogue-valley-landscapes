@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { cn } from '@/lib/utils';
 import { ScrollToTop } from '@/components/ScrollToTop';
+import { Toaster } from '@/components/ui/sonner';
 export function RootLayout() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
@@ -18,6 +19,7 @@ export function RootLayout() {
   return (
     <div className="min-h-screen flex flex-col">
       <ScrollToTop />
+      <Toaster />
       <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
