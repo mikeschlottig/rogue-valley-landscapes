@@ -27,24 +27,32 @@ export const PORTFOLIO_ITEMS = [
     id: 1,
     title: "Rogue River Estate",
     category: "Full Renovation",
+    date: "Spring 2023",
+    excerpt: "A complete overhaul of a riverfront property, focusing on native plantings and terraced hardscaping to prevent erosion while maximizing views.",
     image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1200",
   },
   {
     id: 2,
     title: "Mountain View Terrace",
     category: "Hardscaping",
+    date: "Summer 2022",
+    excerpt: "Extensive flagstone patio and custom fire pit installation, designed to extend the outdoor living season with breathtaking valley vistas.",
     image: "https://images.unsplash.com/photo-1591857172899-bc5527f6f47b?auto=format&fit=crop&q=80&w=1200",
   },
   {
     id: 3,
     title: "Grants Pass Cottage Garden",
     category: "Garden Design",
+    date: "Fall 2023",
+    excerpt: "A whimsical, English-inspired cottage garden featuring winding pathways, drought-tolerant perennials, and custom artisan trellises.",
     image: "https://images.unsplash.com/photo-1599427303058-f173243f0583?auto=format&fit=crop&q=80&w=1200",
   },
   {
     id: 4,
     title: "Sunset Ridge Patio",
     category: "Entertainment Space",
+    date: "Spring 2024",
+    excerpt: "A sophisticated outdoor entertainment zone featuring a fully equipped outdoor kitchen, ambient lighting, and elegant dining areas.",
     image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=1200",
   }
 ];
@@ -52,12 +60,32 @@ export const TESTIMONIALS = [
   {
     name: "Sarah Jenkins",
     role: "Homeowner",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150",
     content: "Rogue Valley Landscapes transformed our messy backyard into a slice of heaven. Their eye for detail is unmatched.",
   },
   {
     name: "David Miller",
     role: "Estate Manager",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150&h=150",
     content: "Reliable, professional, and genuinely creative. They handle our maintenance with incredible care every week.",
+  },
+  {
+    name: "Emily Chen",
+    role: "Local Business Owner",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150",
+    content: "The new entryway garden they designed for my clinic has received so many compliments. It's welcoming and low maintenance.",
+  },
+  {
+    name: "Michael Thompson",
+    role: "Homeowner",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150&h=150",
+    content: "From the initial consultation to the final planting, the team was a joy to work with. Highly recommend their hardscaping services.",
+  },
+  {
+    name: "Jessica Roberts",
+    role: "Property Investor",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150",
+    content: "They completely revitalized the curb appeal of my rental property. Fast, efficient, and beautifully executed design.",
   }
 ];
 export const BLOG_POSTS = [
